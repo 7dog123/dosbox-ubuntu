@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           mkdir -p dos/c
-          dosbox
+          dosbox mount c $GITHUB_WORKSPACE/dosbox/c
